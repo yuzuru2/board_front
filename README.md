@@ -6,3 +6,4 @@
 - vuex
 - typescript
 - bootstrap
+- netlify(ホスティング)
