@@ -1,0 +1,19 @@
+/* bootstrapの謎の右の余白を消す */
+#app {
+  overflow: hidden;
+}
+
+/* スマホ用バナー */
+.sumaho_banner {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* スマホ用バナー */
+  .sumaho_banner {
+    display: block;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+  }
+}
